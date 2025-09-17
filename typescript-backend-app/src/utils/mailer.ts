@@ -5,8 +5,8 @@ import path from 'path';
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'ramakrishnan.20apr@gmail.com',
-    pass: 'xbiy vomk yioi qoxc'
+    user: 'rangapatashala@gmail.com',
+    pass: 'mjtc btjj ubta zbsg'
   }
 });
 
@@ -29,7 +29,7 @@ export async function sendTemplateEmail(
   }
 
   const mailOptions = {
-    from: '"Your Organization" <ramakrishnan.20apr@gmail.com>',
+    from: '"RangaPaatshala" <rangapatashala@gmail.com>',
     to,
     subject,
     html: htmlContent
